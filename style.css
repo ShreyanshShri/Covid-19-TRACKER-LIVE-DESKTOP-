@@ -45,6 +45,9 @@ body {
     margin-top:40px;
 }
 .confirmbox{
+
+}
+.box{
     height:200px;
     background-color: #ebf5fc;
      box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -53,37 +56,13 @@ body {
     margin-top:40px;
     text-align:center ;
     border-radius:5px;
-}
-.activebox{
-    height:200px;
-    background-color: #ebf5fc;
-     box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
-    width:60vw;
-    position:relative ;
-    margin-top:40px;
-    text-align:center ;
-    border-radius:5px;
-}
-.deathbox{
-    height:200px;
-    background-color: #ebf5fc;
-     box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
-    width:60vw;
-    position:relative  ;
-    margin-top:40px;
-    text-align:center ;
-    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .recoverbox{
-    height:200px;
-    background-color: #ebf5fc;
-     box-shadow: -2px -2px 5px white, 3px 3px 5px rgba(0, 0, 0, 0.1);
-    width:60vw;
-    position:relative  ;
-    margin-top:40px;
-    text-align:center ;
-    border-radius:5px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 .title{
     font-size:30px;
@@ -92,4 +71,11 @@ body {
 .count{
     font-size:40px;
     margin-top:55px;
+}
+footer{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
